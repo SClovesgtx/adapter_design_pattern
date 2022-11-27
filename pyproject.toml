@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "adapter-design-pattern"
+version = "0.1.0"
+description = ""
+authors = ["Cloves Paiva <cloves.paiva@extremedigital.com.br>"]
+readme = "README.md"
+packages = [{include = "adapter_design_pattern"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+bs4 = "^0.0.1"
+lxml = "^4.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
